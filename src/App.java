@@ -10,7 +10,7 @@ public class App {
         // var extrator = new ExtratorDeConteudoDaNasa();
         // String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
 
-        var extrator = new ExtratorDeConteudoDoImdb();
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoImdb();
         String url = "https://mocki.io/v1/9a7c1ca9-29b4-4eb3-8306-1adb9d159060";
 
         var http = new ClienteHttp();

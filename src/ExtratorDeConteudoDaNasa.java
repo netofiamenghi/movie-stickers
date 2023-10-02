@@ -2,8 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class ExtratorDeConteudoDaNasa {
+public class ExtratorDeConteudoDaNasa implements ExtratorDeConteudo {
     
+    @Override
     public List<Conteudo> extraiConteudos(String json){
 
         var parser = new JsonParser();
